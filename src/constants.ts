@@ -1,12 +1,12 @@
 import type { Project, Writing } from './types';
 
 export const OWNER = {
-  name: "Aren",
+  name: "Arenikka",
   role: "Penyair, Pengarsip Rasa & Penjelajah Kata",
   bio: "Seorang anak sastra yang berjalan di antara rintik hujan dan baris-baris puisi. Menghabiskan waktu dengan melamun di sudut perpustakaan, mengumpulkan serpihan ingatan, dan menenunnya menjadi prosa, esai, serta pementasan yang merayakan kesunyian manusia.",
   email: "aren@ruangsunyi.com",
   github: "https://github.com/Arennbukangula",
-  linkedin: "https://linkedin.com/in/aren-sastra",
+  linkedin: "#",
 };
 
 export const projects: Project[] = [
