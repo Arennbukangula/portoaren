@@ -1,4 +1,4 @@
-import { Project, Writing } from './types';
+import type { Project, Writing } from './types';
 
 export const OWNER = {
   name: "Nama Kamu",
