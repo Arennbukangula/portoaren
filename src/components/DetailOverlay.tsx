@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-import { X, ExternalLink, Github } from 'lucide-react';
-import { Project, Writing } from '../types';
+import { X, ExternalLink, Code } from 'lucide-react';
+import type { Project, Writing } from '../types';
 import { useLanguage } from '../LanguageContext';
 
 interface Props {
@@ -73,7 +73,7 @@ const DetailOverlay = ({ item, type, onClose }: Props) => {
               {project.github && (
                 <a href={project.github} target="_blank" rel="noreferrer"
                   className="flex items-center gap-2 font-mono text-xs text-ink hover:text-ink-muted transition-colors cursor-pointer">
-                  <Github size={14} /> GitHub
+                  <Code size={14} /> GitHub
                 </a>
               )}
             </div>

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useLanguage } from '../LanguageContext';
 import { writings } from '../constants';
-import { Writing } from '../types';
+import type { Writing } from '../types';
 
 interface Props {
   onSelect: (writing: Writing) => void;

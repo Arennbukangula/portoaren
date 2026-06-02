@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { useLanguage } from '../LanguageContext';
 import { projects } from '../constants';
-import { Project } from '../types';
+import type { Project } from '../types';
 
 interface Props {
   onSelect: (project: Project) => void;
