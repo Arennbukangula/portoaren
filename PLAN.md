@@ -128,10 +128,10 @@ npm run dev
 ```
 
 ### ✅ Checklist Batch 1
-- [ ] `npm run dev` berjalan tanpa error
-- [ ] Background halaman hitam (`#050505`)
-- [ ] Font Cormorant Garamond & Inter sudah ter-load (cek di DevTools → Network → Fonts)
-- [ ] Tidak ada CSS error di console
+- [✅] `npm run dev` berjalan tanpa error
+- [✅] Background halaman hitam (`#050505`)
+- [✅] Font Cormorant Garamond & Inter sudah ter-load (cek di DevTools → Network → Fonts)
+- [✅] Tidak ada CSS error di console
 
 ---
 
